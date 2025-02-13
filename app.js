@@ -2,16 +2,17 @@
 let listaAmigos = []
 
 function adicionarAmigo(amigos) {
-
     amigos = document.getElementById('amigo').value;
 
-if (amigos != null){
+if (amigos != ""){
     listaAmigos.push(amigos);
-    console.log(listaAmigos);
+    document.getElementById(listaAmigos).innerHTML += amigos;
 }
+
 else {
     alert("It cant be null");
 }}
+
 
 function sortearAmigo() {
 
