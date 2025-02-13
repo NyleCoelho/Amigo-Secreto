@@ -1,11 +1,11 @@
 
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #ffffff;
+    --color-secondary: #000000;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-button: #ffffff;
+    --color-button-hover: #ffffff;
+    --color-text: #ffffff;
     --color-white: #FFFFFF;
 }
 
@@ -33,7 +33,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,14 +42,14 @@ body {
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
+    flex: 70%;
     background-color: var(--color-secondary);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     width: 100%;
 }
 
@@ -114,11 +114,12 @@ button {
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    
 }
 
 .button-add {
     background-color: var(--color-tertiary);
-    color: var(--color-text);
+    color: black;
     border-radius: 0 25px 25px 0;
 }
 
@@ -149,13 +150,16 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: black;
     background-color: var(--color-button);
     font-size: 16px;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50
+    px;
 }
 
 .button-draw:hover {
