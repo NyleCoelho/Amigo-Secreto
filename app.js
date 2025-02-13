@@ -1,20 +1,25 @@
 
-let listaAmigos = []
+let Amigos = []
 
 function adicionarAmigo(amigos) {
-    amigos = document.getElementById('amigo').value;
+    inputAmigo = document.getElementById('amigo').value;
 
-if (amigos != ""){
-    listaAmigos.push(amigos);
-    document.getElementById(listaAmigos).innerHTML += amigos;
+if (inputAmigo != ""){
+    Amigos.push(inputAmigo);
+    document.getElementById("listaAmigos").innerHTML += `<li>${inputAmigo}</li>`;
 }
 
 else {
-    alert("It cant be null");
+    alert("O campo não pode estar vazio!");
 }}
 
 
 function sortearAmigo() {
-
+    numeroLimite = Amigos.length
+    indiceSorteado = parseInt(Math.random() * numeroLimite); 
+    amigoSorteado = Amigos[indiceSorteado];
+    
+    document.getElementById("resultado").innerHTML += `<li>${amigoSorteado}</li>`;
 }
 
+ 
