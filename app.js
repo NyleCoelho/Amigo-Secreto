@@ -1,13 +1,12 @@
-let amigo = document.getElementById('input-name').value;
-console.log(amigo);
+let amigo = document.getElementById('amigo').value;
 
-let listaAmigos = []
-
-
-function adicionarAmigo(listaAmigos) {
-    listaAmigos.push(amigo);
+function adicionarAmigo() {
+    let listaAmigos = []
+    listaAmigos.push(`${amigo}`);
+    console.log(listaAmigos);
 }
 
 function sortearAmigo() {
 
 }
+
