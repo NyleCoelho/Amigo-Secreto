@@ -17,6 +17,10 @@ else {
 
 function sortearAmigo() {
 
+    if (Amigos === null) {
+        alert("Não há amigos para sortear!")
+    }
+
     let numeroLimite = Amigos.length;
     let indiceSorteado = parseInt(Math.random() * numeroLimite); 
     let amigoSorteado = Amigos[indiceSorteado];
