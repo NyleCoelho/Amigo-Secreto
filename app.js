@@ -17,9 +17,10 @@ else {
 
 function sortearAmigo() {
 
-    if (Amigos === null) {
+    if (Amigos.length === 0) {
         alert("Não há amigos para sortear!")
     }
+    else {
 
     let numeroLimite = Amigos.length;
     let indiceSorteado = parseInt(Math.random() * numeroLimite); 
@@ -33,4 +34,7 @@ function sortearAmigo() {
         ultimoSorteado = amigoSorteado
         document.getElementById("resultado").innerHTML = `<li>Seu amigo sorteado é ${amigoSorteado}!</li>`;
     }
+    }
+
+
 }        
