@@ -3,6 +3,7 @@ let Amigos = []
 function adicionarAmigo(amigos) {
     inputAmigo = document.getElementById('amigo').value;
 
+//Condição que verifica se o campo inserido pelo usuário é válido
 if (inputAmigo != ""){
     Amigos.push(inputAmigo);
     document.getElementById("listaAmigos").innerHTML += `<li>${inputAmigo}</li>`;
@@ -14,11 +15,22 @@ else {
 }
 
 function sortearAmigo() {
-    numeroLimite = Amigos.length
+    numeroLimite = Amigos.length;
     indiceSorteado = parseInt(Math.random() * numeroLimite); 
     amigoSorteado = Amigos[indiceSorteado];
-    
-    document.getElementById("resultado").innerHTML = `<li>Seu amigo sorteado é ${amigoSorteado}!</li>`;
+    listaSorteados = [];
+
+document.getElementById("resultado").innerHTML = `<li>Seu amigo sorteado é ${amigoSorteado}!</li>`;
+
+    if (listaSorteados.includes(amigoSorteado)) {
+        return sortearAmigo();
+    }
+    else {
+        listaSorteados.push(amigoSorteado);
+        return amigoSorteado;
+        
+    }
+
 }
 
  
