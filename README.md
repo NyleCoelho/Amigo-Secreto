@@ -2,7 +2,7 @@
 
 Bem-vindo ao **Jogo do Amigo Secreto**, um projeto desenvolvido como parte da trilha de capacitação **Oracle ONE** em parceria com a **Alura**! 🚀
 
-![print da tela inicial do jogo](image.png)
+![print da tela inicial do jogo](assets/image.png)
 
 ## 🌟 Sobre o Projeto
 Este é um jogo interativo de Amigo Secreto feito com **HTML, CSS e JavaScript**. Ele permite que um grupo de amigos ou colegas sorteie seus pares de maneira divertida e dinâmica, sem precisar de papel e caneta!
