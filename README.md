@@ -30,7 +30,7 @@ Este é um jogo interativo de Amigo Secreto feito com **HTML, CSS e JavaScript**
 3. Abra o arquivo `index.html` no navegador.
 
 ## 🎨 Demonstração
-Você pode visualizar uma versão funcionando do projeto! 
+Você pode visualizar uma versão funcionando do projeto clicando na imagem abaixo! 
 [![Assista ao vídeo](https://img.youtube.com/vi/R0XEZ4mJv10/maxresdefault.jpg)](https://youtu.be/R0XEZ4mJv10)
 
 
