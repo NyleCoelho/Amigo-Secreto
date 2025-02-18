@@ -11,7 +11,6 @@ Este é um jogo interativo de Amigo Secreto feito com **HTML, CSS e JavaScript**
 - Adição de amigos á uma lista 📝
 - Sorteio de um único amigo 🔀
 - Interface amigável e intuitiva 🎨
-- Possibilidade de reiniciar o sorteio 🔄
 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** → Estrutura da aplicação
