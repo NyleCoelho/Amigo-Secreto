@@ -30,7 +30,8 @@ Este é um jogo interativo de Amigo Secreto feito com **HTML, CSS e JavaScript**
 3. Abra o arquivo `index.html` no navegador.
 
 ## 🎨 Demonstração
-Você pode visualizar uma versão funcionando do projeto [aqui](#) .*
+Você pode visualizar uma versão funcionando do projeto! [Youtube](https://youtu.be/R0XEZ4mJv10)
+
 
 
 💙 Desenvolvido com dedicação durante a trilha **Oracle ONE & Alura** 🚀
